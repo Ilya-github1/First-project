@@ -1,0 +1,71 @@
+
+.items{
+    transition: all .3s ease;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: var(--background-color2);
+    h3{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+.items a{
+    color: rgb(255, 255, 255);
+}
+.icon_home{
+    position: relative;
+    top: 3px;
+    left: 0px;
+    color: blanchedalmond;
+}
+.icon_korzina{
+    position: relative;
+    top: 3px;
+    left: -1px;
+    color: blanchedalmond;   
+}
+.icon_settings{
+    position: relative;
+    top: 3px;
+    left: -1px;
+    color: blanchedalmond;
+}
+.icon_shop{
+    position: relative;
+    top: 3px;
+    left: -1px;
+    color: blanchedalmond;
+}
+.items :hover{
+    color: red;
+    transition: color,  500ms ease;
+   
+}
+.Korzina_v2{
+    display: flex;
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    
+}
+button{
+    border-color: rgb(200, 119, 119);
+    border-radius: 50px;
+}
+.theme-btn{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+button{
+    width: 50px;
+    border-radius: 15px;
+    background-color: var(--button-bg);
+}
+button:hover{
+    background-color: rgb(189, 165, 165);
+}
+}
